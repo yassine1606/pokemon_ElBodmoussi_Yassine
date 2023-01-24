@@ -1,17 +1,22 @@
+body{
+    margin: 0;
+}
+
+
 #s1{
     background-image: url('../img/pokebg2.jpeg');
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-repeat: no-repeat;
     position: relative;
 }
 #arca{
     position: absolute;
-    bottom: 200px;
+    bottom: 5px;
 }
 #d1{
     background-color: rgba(0, 0, 0, 0.725);
-    height: 7vh;
+    height: 11vh;
     width: 30vw;
     position: absolute;
     top: 100px;
@@ -41,9 +46,9 @@
 }
 #d2{
     background-color: rgba(0, 0, 0, 0.725);
-    height: 7vh;
+    height: 11vh;
     width: 30vw;
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left:55vw ;
 }
