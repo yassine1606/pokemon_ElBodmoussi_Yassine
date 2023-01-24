@@ -18,7 +18,7 @@ body {
 
 #d1 {
     background-color: rgba(0, 0, 0, 0.725);
-    height: 11vh;
+    height: 16vh;
     width: 30vw;
     position: absolute;
     top: 100px;
@@ -38,7 +38,7 @@ body {
 }
 
 #hp {
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     color: white;
     margin-left: 80%;
@@ -53,7 +53,7 @@ body {
 
 #d2 {
     background-color: rgba(0, 0, 0, 0.725);
-    height: 11vh;
+    height: 16vh;
     width: 30vw;
     position: absolute;
     bottom: 100px;
@@ -102,3 +102,5 @@ body {
     display: inline-block;
     font-size: 16px;
 }
+
+
