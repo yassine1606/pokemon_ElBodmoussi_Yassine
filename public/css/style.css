@@ -1,0 +1,49 @@
+#s1{
+    background-image: url('../img/pokebg2.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#arca{
+    position: absolute;
+    bottom: 200px;
+}
+#d1{
+    background-color: rgba(0, 0, 0, 0.725);
+    height: 7vh;
+    width: 30vw;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.pokeball{
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+#name{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hp{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    margin-left: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+#levia{
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 20vh;
+}
+#d2{
+    background-color: rgba(0, 0, 0, 0.725);
+    height: 7vh;
+    width: 30vw;
+    position: absolute;
+    bottom: 150px;
+    left:55vw ;
+}
