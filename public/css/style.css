@@ -1,20 +1,22 @@
-body{
+body {
     margin: 0;
 }
 
 
-#s1{
+#s1 {
     background-image: url('../img/pokebg2.jpeg');
     height: 80vh;
     width: 100vw;
     background-repeat: no-repeat;
     position: relative;
 }
-#arca{
+
+#arca {
     position: absolute;
     bottom: 5px;
 }
-#d1{
+
+#d1 {
     background-color: rgba(0, 0, 0, 0.725);
     height: 11vh;
     width: 30vw;
@@ -22,33 +24,81 @@ body{
     top: 100px;
     left: 100px;
 }
-.pokeball{
+
+.pokeball {
     height: 30px;
     margin-left: 15px;
     margin-top: 9px;
 }
-#name{
+
+#name {
     color: white;
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#hp{
+
+#hp {
     font-size: 40px;
     position: absolute;
     color: white;
     margin-left: 80%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#levia{
+
+#levia {
     position: absolute;
     margin-left: 70vw;
     margin-top: 20vh;
 }
-#d2{
+
+#d2 {
     background-color: rgba(0, 0, 0, 0.725);
     height: 11vh;
     width: 30vw;
     position: absolute;
     bottom: 100px;
-    left:55vw ;
+    left: 55vw;
+}
+
+#s2 {
+    display: flex;
+    background-color: gray;
+    height: 30vh;
+    border-top: 1px solid white;
+    position: relative;
+}
+
+#action {
+    color: white;
+    margin-left: 20px;
+}
+
+#continue {
+    margin-left: 20px;
+    background-color: #6e6767;
+    border: 1px solid #969494;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#allb {
+    position: absolute;
+    top: 30px;
+    margin-left: 70vw;
+}
+
+.bta {
+    margin-top: 5px;
+    background-color: #6e6767;
+    border: 1px solid #969494;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
