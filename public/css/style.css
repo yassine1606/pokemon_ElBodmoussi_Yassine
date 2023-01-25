@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+
 body {
+    font-family: 'Press Start 2P', cursive;
     margin: 0;
+    overflow: hidden;
 }
 
 
@@ -34,15 +38,18 @@ body {
 #name {
     color: white;
     margin-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 #hp {
-    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+
+    font-size: 15px;
     position: absolute;
     color: white;
-    margin-left: 80%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70%;
+    margin-top: 3%;
 }
 
 #levia {
@@ -69,8 +76,15 @@ body {
 }
 
 #action {
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 50px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    margin-left: 20px;
+    font-size: 15px;
 }
 
 #continue {
@@ -100,7 +114,60 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 0.8em;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 
+progress {
+    border: none;
+    width: 25vw;
+    height: 3vh;
+    background: crimson;
+    margin-left: 4%;
+}
+
+progress {
+    color: lightblue;
+    
+}
+
+progress::-webkit-progress-value {
+    background: green;
+
+}
+#bgred::-webkit-progress-value{
+    background: red;
+}
+#tout{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url('../img/pokemaster.jpeg');
+     background-repeat: no-repeat;
+     background-size: 120vw;
+}
+.part{
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100%);
+}
+.revenir{
+    transform: translateX(0);
+}
+#h1t1{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+#contain-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}

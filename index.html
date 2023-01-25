@@ -5,59 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <title>Document</title>
   </head>
   <body>
-    <section id="s1">
-
-
-    <div id="d1">
-        <p id="hp">HP: <span id="hpEnnemy">100</span></p>
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <p id="name"> <strong> Léviator</strong> LVL 100 </p>
-        <progress id="hpBar" value="100" max="100"></progress>
-
-        
-    </div>
-
-      <img src="./public/img/arcanin.png" alt="" height="200px" id="arca" />
-
-
-
-
-
-      
-    <img src="./public/img/leavia.png" alt="" height="200px" id="levia">
-    <div id="d2">
-        <p id="hp">HP: <span id="pvAlly">100</span></p>
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
-        <p id="name"> <strong> Arcanin</strong> LVL 100 </p>
-        <progress id="hpBarAlly" value="100" max="100"></progress>
-
-        
-    </div>
-    </section>
-
-    <section id="s2">
-      <div>
-      <h1 id="action"></h1>
-      <button id="continue">Continue</button>
-    </div>
-    <div id="allb">
-        <button id="atk1" class="bta">Boute Feu</button>
-        <button id="atk2"class="bta">Crocs Feu</button> <br>
-        <button id="atk3"class="bta">RoueeFeu</button>
-        <button id="atk4"class="bta">Hurlement</button>
+    <section id="tout">
+      <div id="dtout">
+        <h1 id="h1t1">Choisis ton pokémon de départ</h1>
+        <div id="contain-title">
+          <img src="./public/img/arcanine2.gif" alt="" height="300px" width="400px" id="btgo">
+          <img src="./public/img/kyogrefaaace.gif" alt="" height="300px" width="400px" id="btgo2">
+        </div>
       </div>
     </section>
-  </body>
-  <script src="./public/js/main.js"></script>
-</html>
+      <div id="dtotal" class="part">
+        <section id="s1">
+          <audio id="background-music" autoplay loop>
+            <source src="./public/img/pokebgaudio.mp3" type="audio/mpeg">
+          </audio>
+          <div id="d1">
+            <p id="hp">HP: <span id="hpEnnemy">100</span></p>
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <p id="name"> <strong> Léviator</strong> LVL 100 </p>
+            <progress id="hpBar" value="100" max="100"></progress>
+            
+            
+          </div>
+          
+          <img src="./public/img/kyogre.gif" alt="" height="200px" id="arca" />
+          <img src="./public/img/leavia.png" alt="" height="200px" id="levia">
+          <div id="d2">
+            <p id="hp">HP: <span id="pvAlly">100</span></p>
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <img src="./public/img/pokeeeee.png" alt="" class="pokeball">
+            <p id="name"> <strong> Arcanin</strong> LVL 87 </p>
+            <progress id="hpBarAlly" value="100" max="100"></progress>
+            
+            
+          </div>
+        </section>
+        
+        <section id="s2">
+          <div>
+            <h1 id="action"></h1>
+          </div>
+          <div id="allb">
+            <button id="atk1" class="bta">BouteFeu</button>
+          <button id="atk2"class="bta">CrocsFeu</button> <br>
+          <button id="atk3"class="bta">RoueeFeu</button>
+          <button id="atk4"class="bta">Hurlemen</button>
+        </div>
+      </section>
+    </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./public/js/main.js"></script>
+    </html>
+    
