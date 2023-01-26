@@ -29,6 +29,27 @@ body {
     left: 100px;
 }
 
+
+
+
+#arca {
+    transition: 1.5s;
+    
+  }
+  #arca.attacking {
+    transform: translate(750px,-300px);
+    
+  }
+  #levia{
+    transition: 1.5s;
+  }
+#levia.attacking{
+    transform: translate(-750px,300px);
+}
+
+
+
+
 .pokeball {
     height: 30px;
     margin-left: 15px;
@@ -168,6 +189,10 @@ progress::-webkit-progress-value {
 #contain-title{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 100px;
     gap: 50px;
+}
+#deuximg{
+    margin-left: 20%;
 }
